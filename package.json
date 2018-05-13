@@ -27,7 +27,7 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "setup": "npm install",
     "standard-fix": "standard --fix",
-    "start": "micro"
+    "start": "micro -p 3003"
   },
   "keywords": [
     "microservice",
